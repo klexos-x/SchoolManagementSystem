@@ -1,7 +1,7 @@
-# Compiled class files
+# Compiled class file
 *.class
 
-# Log files
+# Log file
 *.log
 
 # BlueJ files
@@ -19,15 +19,36 @@
 *.tar.gz
 *.rar
 
-# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
 
 # IntelliJ IDEA project files
-.idea/
-*.iml
-out/
+/.idea/
+/*.iml
 
-# Maven/Gradle build directories
+# Eclipse project files
+/.project
+/.classpath
+/.settings/
+
+# Maven files
 /target/
+
+# Gradle files
+/.gradle/
 /build/
+
+# NetBeans files
+/nbproject/
+*.nb-configuration.xml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other files
+*.user
+*.sublime-workspace
+*.sublime-project
+*.orig
